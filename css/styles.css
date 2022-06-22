@@ -300,9 +300,9 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('../images/main-bcg.jpeg') center/cover no-repeat fixed;
+    url('../images/main-bcg.jpeg') center/cover no-repeat;
   position: relative;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 .banner {
   text-align: center;
@@ -325,7 +325,7 @@ Header
   margin-top: 1.25rem;
   margin-bottom: 2rem;
   /* animation */
-  animation: slideFromLeft 5s ease-in-out 1;
+  /* animation: slideFromLeft 5s ease-in-out 1; */
 }
 
 .banner-btn {
